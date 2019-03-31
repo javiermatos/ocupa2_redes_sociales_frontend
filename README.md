@@ -53,13 +53,13 @@ La sección dedicada a Twitter es análoga a aquella de Instagram.
 ![](docs/frontend_twitter_user.png)
 
 
-### Sobre CORS
+## Sobre CORS
 
 Dado que es una aplicación serverless, intentamos llamar directamente al servidor que proponía el resto, pero la
 restricción CORS fue un problema. Para solucionar eso utilizamos un proxy que desplegamos en una máquina propia
 utilizando nginx y [locals-cors-proxy](https://github.com/garmeeh/local-cors-proxy).
 
 
-### Notas
+## Notas
 
 Este proyecto ha sido realizado por Javier Matos para presentar al Hackathon de Ocupa2.
